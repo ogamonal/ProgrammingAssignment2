@@ -4,7 +4,7 @@
 
 ## Write a short comment describing this function
 ## The makeCacherMatrix assign and returns the  values of a matrix 'x' and
-## its matrix inverse 
+## its matrix inverse. 
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -18,6 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set = set, get = get,
          setinverse = setinverse,
          getinverse = getinverse)
+    
 }
 
 
